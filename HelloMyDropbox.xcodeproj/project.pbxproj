@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333C65D848530E60E1D3FA5A /* libPods-HelloMyDropbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0C12C66741499BBC54931E /* libPods-HelloMyDropbox.a */; };
+		92D7CCAA1E557BC800E9F09A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D7CCA91E557BC800E9F09A /* main.m */; };
+		92D7CCAD1E557BC800E9F09A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D7CCAC1E557BC800E9F09A /* AppDelegate.m */; };
+		92D7CCB01E557BC800E9F09A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D7CCAF1E557BC800E9F09A /* MasterViewController.m */; };
+		92D7CCB31E557BC800E9F09A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D7CCB21E557BC800E9F09A /* DetailViewController.m */; };
+		92D7CCB61E557BC800E9F09A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D7CCB41E557BC800E9F09A /* Main.storyboard */; };
+		92D7CCB81E557BC800E9F09A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D7CCB71E557BC800E9F09A /* Assets.xcassets */; };
+		92D7CCBB1E557BC800E9F09A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D7CCB91E557BC800E9F09A /* LaunchScreen.storyboard */; };
+		92D7CCC31E5590B100E9F09A /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92D7CCC21E5590B100E9F09A /* image.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D0C12C66741499BBC54931E /* libPods-HelloMyDropbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloMyDropbox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CD84F8F8BDA8F2B5749B4A /* Pods-HelloMyDropbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMyDropbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMyDropbox/Pods-HelloMyDropbox.debug.xcconfig"; sourceTree = "<group>"; };
+		92D7CCA51E557BC800E9F09A /* HelloMyDropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMyDropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D7CCA91E557BC800E9F09A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92D7CCAB1E557BC800E9F09A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92D7CCAC1E557BC800E9F09A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92D7CCAE1E557BC800E9F09A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		92D7CCAF1E557BC800E9F09A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		92D7CCB11E557BC800E9F09A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		92D7CCB21E557BC800E9F09A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		92D7CCB51E557BC800E9F09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92D7CCB71E557BC800E9F09A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92D7CCBA1E557BC800E9F09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92D7CCBC1E557BC800E9F09A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D7CCC21E5590B100E9F09A /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		9DC4F943B69E04F2DD40C9FF /* Pods-HelloMyDropbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMyDropbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMyDropbox/Pods-HelloMyDropbox.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92D7CCA21E557BC800E9F09A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333C65D848530E60E1D3FA5A /* libPods-HelloMyDropbox.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F218BA41BE30FE3089FE480 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D0C12C66741499BBC54931E /* libPods-HelloMyDropbox.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92D7CC9C1E557BC800E9F09A = {
+			isa = PBXGroup;
+			children = (
+				92D7CCA71E557BC800E9F09A /* HelloMyDropbox */,
+				92D7CCA61E557BC800E9F09A /* Products */,
+				E9C20A1C6699D6E154E7F634 /* Pods */,
+				1F218BA41BE30FE3089FE480 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92D7CCA61E557BC800E9F09A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92D7CCA51E557BC800E9F09A /* HelloMyDropbox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92D7CCA71E557BC800E9F09A /* HelloMyDropbox */ = {
+			isa = PBXGroup;
+			children = (
+				92D7CCAB1E557BC800E9F09A /* AppDelegate.h */,
+				92D7CCAC1E557BC800E9F09A /* AppDelegate.m */,
+				92D7CCAE1E557BC800E9F09A /* MasterViewController.h */,
+				92D7CCAF1E557BC800E9F09A /* MasterViewController.m */,
+				92D7CCB11E557BC800E9F09A /* DetailViewController.h */,
+				92D7CCB21E557BC800E9F09A /* DetailViewController.m */,
+				92D7CCB41E557BC800E9F09A /* Main.storyboard */,
+				92D7CCB71E557BC800E9F09A /* Assets.xcassets */,
+				92D7CCB91E557BC800E9F09A /* LaunchScreen.storyboard */,
+				92D7CCBC1E557BC800E9F09A /* Info.plist */,
+				92D7CCC21E5590B100E9F09A /* image.jpg */,
+				92D7CCA81E557BC800E9F09A /* Supporting Files */,
+			);
+			path = HelloMyDropbox;
+			sourceTree = "<group>";
+		};
+		92D7CCA81E557BC800E9F09A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92D7CCA91E557BC800E9F09A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9C20A1C6699D6E154E7F634 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33CD84F8F8BDA8F2B5749B4A /* Pods-HelloMyDropbox.debug.xcconfig */,
+				9DC4F943B69E04F2DD40C9FF /* Pods-HelloMyDropbox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92D7CCA41E557BC800E9F09A /* HelloMyDropbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D7CCBF1E557BC800E9F09A /* Build configuration list for PBXNativeTarget "HelloMyDropbox" */;
+			buildPhases = (
+				7661ABAE5F027B29DEBF0715 /* [CP] Check Pods Manifest.lock */,
+				92D7CCA11E557BC800E9F09A /* Sources */,
+				92D7CCA21E557BC800E9F09A /* Frameworks */,
+				92D7CCA31E557BC800E9F09A /* Resources */,
+				3C93D9004FD994E3FA51A4EC /* [CP] Embed Pods Frameworks */,
+				1054DC3834457588CE43E8CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMyDropbox;
+			productName = HelloMyDropbox;
+			productReference = 92D7CCA51E557BC800E9F09A /* HelloMyDropbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92D7CC9D1E557BC800E9F09A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ZihCi;
+				TargetAttributes = {
+					92D7CCA41E557BC800E9F09A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 54J4X5U7W4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 92D7CCA01E557BC800E9F09A /* Build configuration list for PBXProject "HelloMyDropbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92D7CC9C1E557BC800E9F09A;
+			productRefGroup = 92D7CCA61E557BC800E9F09A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92D7CCA41E557BC800E9F09A /* HelloMyDropbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92D7CCA31E557BC800E9F09A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D7CCBB1E557BC800E9F09A /* LaunchScreen.storyboard in Resources */,
+				92D7CCC31E5590B100E9F09A /* image.jpg in Resources */,
+				92D7CCB81E557BC800E9F09A /* Assets.xcassets in Resources */,
+				92D7CCB61E557BC800E9F09A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1054DC3834457588CE43E8CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloMyDropbox/Pods-HelloMyDropbox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C93D9004FD994E3FA51A4EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloMyDropbox/Pods-HelloMyDropbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7661ABAE5F027B29DEBF0715 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92D7CCA11E557BC800E9F09A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D7CCAD1E557BC800E9F09A /* AppDelegate.m in Sources */,
+				92D7CCB01E557BC800E9F09A /* MasterViewController.m in Sources */,
+				92D7CCAA1E557BC800E9F09A /* main.m in Sources */,
+				92D7CCB31E557BC800E9F09A /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92D7CCB41E557BC800E9F09A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92D7CCB51E557BC800E9F09A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92D7CCB91E557BC800E9F09A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92D7CCBA1E557BC800E9F09A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92D7CCBD1E557BC800E9F09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92D7CCBE1E557BC800E9F09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92D7CCC01E557BC800E9F09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33CD84F8F8BDA8F2B5749B4A /* Pods-HelloMyDropbox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 54J4X5U7W4;
+				INFOPLIST_FILE = HelloMyDropbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZihCi.HelloIAP.HelloMyDropbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92D7CCC11E557BC800E9F09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC4F943B69E04F2DD40C9FF /* Pods-HelloMyDropbox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 54J4X5U7W4;
+				INFOPLIST_FILE = HelloMyDropbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZihCi.HelloIAP.HelloMyDropbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92D7CCA01E557BC800E9F09A /* Build configuration list for PBXProject "HelloMyDropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D7CCBD1E557BC800E9F09A /* Debug */,
+				92D7CCBE1E557BC800E9F09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D7CCBF1E557BC800E9F09A /* Build configuration list for PBXNativeTarget "HelloMyDropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D7CCC01E557BC800E9F09A /* Debug */,
+				92D7CCC11E557BC800E9F09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92D7CC9D1E557BC800E9F09A /* Project object */;
+}
